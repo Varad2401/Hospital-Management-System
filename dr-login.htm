@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" type="text/css" href="dr-login.css">
+</head>
+<body>
+  <div class="cont">
+    <div class="form sign-in">
+      <h2>Sign In</h2>
+      <label>
+        <span>Email Address</span>
+        <input type="email" name="email">
+      </label>
+      <label>
+        <span>Password</span>
+        <input type="password" name="password">
+      </label>
+      <button class="submit" type="button">Sign In</button>
+      <p class="forgot-pass">Forgot Password ?</p>
+
+      <div class="social-media">
+        <ul>
+          <li><img src="image/facebook.png"></li>
+          <li><img src="image/twitter.png"></li>
+          <li><img src="image/linkedin.png"></li>
+          <li><img src="image/instagram.png"></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="sub-cont">
+      <div class="img">
+        <div class="img-text m-up">
+          <h2>New here?</h2>
+          <p>Sign up and discover great amount of new opportunities!</p>
+        </div>
+        <div class="img-text m-in">
+          <h2>One of us?</h2>
+          <p>If you already has an account, just sign in. We've missed you!</p>
+        </div>
+        <div class="img-btn">
+          <span class="m-up">Sign Up</span>
+          <span class="m-in">Sign In</span>
+        </div>
+      </div>
+      <div class="form sign-up">
+        <h2>Sign Up</h2>
+        <label>
+          <span>Name</span>
+          <input type="text">
+        </label>
+        <label>
+          <span>Email</span>
+          <input type="email">
+        </label>
+        <label>
+          <span>Password</span>
+          <input type="password">
+        </label>
+        <label>
+          <span>Confirm Password</span>
+          <input type="password">
+        </label>
+        <button type="button" class="submit">Sign Up Now</button>
+      </div>
+    </div>
+  </div>
+<script>document.querySelector('.img-btn').addEventListener('click', function()
+	{
+		document.querySelector('.cont').classList.toggle('s-signup')
+	}
+);
+</script>
+</body>
+</html>

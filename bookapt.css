@@ -1,0 +1,505 @@
+    *
+    {
+      margin: 0;
+      padding: 0;
+      font-family: 'Varela Round', sans-serif;
+      scroll-behavior: smooth;
+    }
+
+
+    ::-webkit-scrollbar
+    {
+      display: none;
+    }
+
+    body
+    {
+      background-color: #111827;
+      color: white;
+    }
+
+    a
+    {
+      text-decoration: none;
+    }
+
+    .lgbg
+    {
+      position: absolute;
+      width: 100%;
+      height: 50px;
+      background-color: #111827;
+    }
+
+    .login
+    {
+      position: relative;
+      display: flex;
+      right:0;
+      float:right;
+    }
+
+    .dbutton
+    {
+      position: relative;
+      background-color: #111827;
+      border:2px solid gainsboro;
+      text-decoration: none;
+      height: 100%;
+      padding: 7px;
+      margin: auto 10px;
+      font-weight: bold;
+    }
+
+    .dbutton a
+    {
+      text-decoration: none;
+      color: gainsboro;
+    }
+
+    .dbutton:hover,
+    .dbutton a:hover
+    {
+      color: white;
+      border-color: white;
+    }
+
+    .fa-user
+    {
+      display: block;
+      position: relative;
+      color: gainsboro;
+      margin: 5px 10px 10px 10px;
+    }
+
+    .fa-user:hover
+    {
+      color:white;
+    }
+
+    .fa-user-md
+    {
+      display: block;
+      position: relative;
+      color: gainsboro;
+      margin: 5px 10px 10px 10px;
+    }
+
+    .fa-user-md:hover
+    {
+      color: white;
+    }
+
+
+    nav 
+    {
+      position: relative;
+      z-index: 10;
+      left: 0;
+      right: 0;
+      top:50px;
+      padding: 0;
+      height:50px;
+      background-color: #111827;
+    }
+
+    .logo img
+
+    {
+      position: absolute;
+      width: 25vh;
+      left: 0;
+      margin: 5px;
+    }
+
+    .links 
+    {
+      float: right;
+      padding: 0;
+      margin-top: .3em;
+      margin-bottom: 1em;
+      margin-left: 0;
+      margin-right: 5px;
+      height: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      letter-spacing:1px;
+    }
+
+
+    .links li 
+    {
+      list-style: none;
+      display: inline-block;
+      position: relative;
+    }
+
+    .links  li:hover
+    {
+      color: white;
+    }
+
+    .links li a:hover
+    {
+      color: white;
+    }
+
+
+    .links a 
+    {
+      display: block;
+      padding-top: 1.5em;
+      padding-bottom: 2em;
+      padding-left: 1.5em;
+      padding-right: 1.5em;
+      font-size: 14px;
+      font-weight: 600;
+      color: gainsboro;
+      text-decoration: none;
+    }
+
+
+    /*________________________Dropdown___________________________*/
+      
+    .dropdown 
+    {
+      position: relative;
+      display: inline-block;
+    }
+
+    .drp
+    {
+      display: block;
+      padding-top: 1.5em;
+      padding-bottom: 2em;
+      padding-left: 1.5em;
+      padding-right: 1.5em;
+      font-size: 14px;
+      font-weight: 600;
+      color: gainsboro;
+      text-decoration: none;
+    }
+
+
+    .dropdown-content 
+    {
+      display: none;
+      position: absolute;
+      background-color: white;
+      top: 52px;
+      min-width: auto;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a 
+    {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+    }
+
+    .dropdown-content a:hover 
+    {
+      background-color: gainsboro;
+    }
+
+    .dropdown:hover .dropdown-content 
+    {
+      display: block;
+    }
+
+    .cont 
+    {
+      position: relative;
+      width: 30%;
+      display: flex;
+      height: 50px;
+      flex-direction: row 1 1;
+    }
+
+
+
+    .header
+    {
+      position: relative;
+      text-align: left;
+      color: red;
+      font-size: 30px;
+      top: 3em;
+      margin: 2% 18%;
+    }
+
+   .vl1
+   {
+      position: absolute;
+      border-left: 8px solid red ;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+      height: 40px;
+      margin:30px 0px;
+   }
+
+   .vl2
+   {
+      position: absolute;
+      border-left: 8px solid red ;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+      height: 42px;
+      margin:7px 0px;
+   }
+
+   .vl3
+   {
+      position: absolute;
+      border-left: 8px solid red ;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+      height: 42px;
+      margin:7px 0px;
+   }
+
+   .vl4
+   {
+      position: absolute;
+      border-left: 8px solid red ;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+      height: 42px;
+      margin:6px 0px;
+   }
+   .vl5
+   {
+      position: absolute;
+      border-left: 8px solid red ;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+      height: 42px;
+      margin:7px 0px;
+   }
+
+   .vl6
+   {
+      position: absolute;
+      border-left: 8px solid red ;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+      height: 41px;
+      margin:7px 0px;
+   }
+
+   .vl7
+   {
+      position: absolute;
+      border-left: 8px solid red ;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+      height: 41px;
+      margin:29px 0px;
+   }
+
+   .vl8
+   {
+      position: absolute;
+      border-left: 8px solid red ;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+      height: 41px;
+      margin:29px 0px;
+   }
+
+   .vl9
+   {
+      position: absolute;
+      border-left: 8px solid red ;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+      height: 41px;
+      margin:29px 0px;
+   }
+
+    #pwd,#email
+    {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 0.5em 0 2em 0;
+      display: block;
+      border: 1px solid #444;
+      border-radius: 4px;
+      box-sizing: border-box;
+      outline: none;
+    }
+
+
+      .container input[type=text], select 
+      {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 0.5em 0 2em 0;
+        display: block;
+        border: 1px solid #444;
+        border-radius: 4px;
+        box-sizing: border-box;
+        outline: none;
+        background-color: gainsboro;
+      }
+      
+      input[type=text], select 
+      {
+        width: 100%;
+        padding: 10px 10px;
+        margin: 10px 0;
+        display: inline-block;
+        border: 1px solid gainsboro;
+        box-sizing: border-box;
+        outline: none;
+        background-color: gainsboro;
+      }
+
+      #submit
+      {
+        width:20%;
+        float: right;
+        background-color: #e07171;
+        color: white;
+        padding: 14px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      #submit:hover 
+      {
+        background-color: #3065b5;
+      }
+      
+      .container 
+      {
+        position: absolute;
+        border-radius: 5px;
+        background-color: #212750;
+        padding: 20px;
+        margin: 12em 18% ;
+        top: 3em;
+        width: 60%;
+        color: white;
+        box-shadow: 0 1px 5px rgb(255, 255, 255);
+      }
+      
+      
+
+
+  /*____________________________Footer____________________________*/
+  * {
+    box-sizing: border-box;
+    }
+  
+    .footer
+    {
+      background-color:#19203D;
+      height: 100%;
+      top: 180vh;
+      overflow: hidden;
+    }
+  
+    .footer li
+    {
+      list-style: none;
+      padding-bottom: 20px;
+    }
+  
+  
+    .box
+    {
+      max-width: 2000px;
+      width: 90%;
+      margin: 10vh auto;
+      padding: 1em 3em;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      grid-gap: 1em;
+    }
+  
+  
+  
+    /*_____________footer-Desc_____________*/
+    .fdesc
+    {
+      color: white;
+    }
+  
+    .fdesc-title
+    {
+      font-size: 20px;
+      margin: 30px 50px 0px 50px;
+    }
+  
+    .fdesc-title::after
+    {
+      content:'';
+      width: 0%;
+      height:2px;
+      background: rgb(3, 163, 163);
+      display: block;
+      margin: auto;
+      transition: 0.5s;
+    }
+  
+    .fdesc-title::after
+    {
+      width: 30%;
+      margin-left: 0px;
+      margin-top: 5px;
+    }
+  
+    .fdesc-desc
+    {
+      font-size: 15px;
+      text-align: left;
+      line-height: 4vh;
+      margin:30px 50px 0px 50px;
+      color: gainsboro;
+    }
+
+  
+    input[type=text]:hover
+    {
+      border: 1px solid white;
+      outline: none;
+    }
+  
+    input[type=submit] 
+    {
+      width: 70%;
+      background-color: transparent;
+      border: 1px solid gainsboro;
+      padding: 12px 10px;
+      margin: 1px 0;
+      cursor: pointer;
+      color:gainsboro;
+    }
+  
+    input[type=submit]:hover 
+    {
+      border: 1px solid white;
+      outline: none;
+      box-shadow: 0 1px 3px rgb(255, 255, 255);
+    }
+  
+    footer hr
+    {
+      margin-bottom: 1vh;
+      border:1px solid gainsboro;
+    }
+  
+    .copyright
+    {
+      font-size: 13px;
+      color:gainsboro;
+      margin: 3vh;
+      text-align: center;
+    }
+  
+  

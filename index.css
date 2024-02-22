@@ -1,0 +1,610 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: 'Varela Round', sans-serif;
+  scroll-behavior: smooth;
+}
+
+
+::-webkit-scrollbar
+{
+  display: none;
+}
+
+body
+{
+  background-color: #111827;
+  color: white;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+.lgbg
+{
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  background-color: #111827;
+}
+
+.login
+{
+  position: relative;
+  display: flex;
+  right:0;
+  float:right;
+}
+
+.dbutton
+{
+  position: relative;
+  background-color: #111827;
+  border:2px solid gainsboro;
+  text-decoration: none;
+  height: 100%;
+  padding: 7px;
+  margin: auto 10px;
+  font-weight: bold;
+}
+
+.dbutton a
+{
+  text-decoration: none;
+  color: gainsboro;
+}
+
+.dbutton:hover,
+.dbutton a:hover
+{
+  color: white;
+  border-color: white;
+}
+
+.fa-user
+{
+  display: block;
+  position: relative;
+  color: gainsboro;
+  margin: 5px 10px 10px 10px;
+}
+
+.fa-user:hover
+{
+  color:white;
+}
+
+.fa-user-md
+{
+  display: block;
+  position: relative;
+  color: gainsboro;
+  margin: 5px 10px 10px 10px;
+}
+
+.fa-user-md:hover
+{
+  color: white;
+}
+
+
+nav 
+{
+	position: relative;
+	z-index: 10;
+	left: 0;
+	right: 0;
+	top:50px;
+	padding: 0;
+	height:50px;
+	background-color: #111827;
+}
+
+.logo img
+
+{
+  position: absolute;
+  width: 25vh;
+  left: 0;
+  margin: 5px;
+}
+
+ .links 
+{
+	float: right;
+	padding: 0;
+  margin-top: .3em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 5px;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+  letter-spacing:1px;
+}
+
+
+ .links li 
+{
+  list-style: none;
+  display: inline-block;
+  position: relative;
+}
+
+.links  li:hover
+{
+  color: white;
+}
+
+.links li a:hover
+{
+  color: white;
+}
+
+
+ .links a 
+{
+	display: block;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	font-size: 14px;
+  font-weight: 600;
+	color: gainsboro;
+	text-decoration: none;
+}
+
+
+/*________________________Dropdown___________________________*/
+  
+.dropdown 
+{
+  position: relative;
+  display: inline-block;
+}
+
+.drp
+{
+  display: block;
+  position: absolute;
+  padding-top: 1.5em;
+  padding-bottom: 2em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-size: 14px;
+  font-weight: 600;
+  color: gainsboro;
+  text-decoration: none;
+}
+
+
+
+.dropdown-content 
+{
+  display: none;
+  position: absolute;
+  background-color: white;
+  top: 52px;
+  min-width: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 10;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.dropdown-content a 
+{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover 
+{
+  text-shadow: .5px .5px 4px #0000007c;
+
+}
+
+.dropdown:hover .dropdown-content 
+{
+  display: block;
+}
+
+.cont 
+{
+  position: relative;
+  width: 30%;
+  display: flex;
+  height: 50px;
+  flex-direction: row 1 1;
+}
+
+
+ /*_______________Slideshow________________*/
+
+ .mySlides
+ {
+   display: none;
+ }
+ 
+ .mySlides img 
+ {
+   margin-top: 1.8em;
+   align-content: center;
+   width: 100%;
+   background-image: url(image/bg.jpg);
+ }
+ 
+ .slideshow-container 
+ {
+   position: relative;
+   background-position: center;
+   background-size: inherit;
+   width: 100%;
+ }
+
+ .header
+ {
+  position: absolute; 
+  width: 600px;
+  margin-left: 3rem; 
+  top: 10rem;
+ }
+ 
+ .t1
+ {
+   position: relative;
+   color:white; 
+   font-size: 3rem; 
+   font-weight:900; 
+   width: 1000px;
+   background-color: transparent;
+ }
+ 
+ .tr1
+ {
+   position: relative;
+   color:rgb(255, 255, 255); 
+   font-size: 25px;  
+   font-weight: 400;
+   width: 500px;
+   margin-top: .5em;
+   background-color: transparent;
+   text-align: justify;
+   line-height: 35px;
+ }
+
+
+ .bt1
+{
+   position:relative;
+   font-size: 1.2rem;
+   font-weight: bold;
+   margin-top: 1em;
+   padding-top: .5rem;
+   padding-bottom: .5rem;
+   padding-left: 1rem;
+   padding-right: 1rem;
+   text-align: center;
+   background-color: #6C63FF;
+   color:white;
+   border-style: none;
+   cursor: pointer;
+   outline: none;
+}
+
+.bt1:hover
+{
+ color: white;
+ background-color: #363836;
+ box-shadow: 0 2px 5px rgb(255, 255, 255);
+}
+
+
+
+
+.contact-box
+{
+   max-width: 2000px;
+   width: 90%;
+   margin:10vh auto;
+   padding: 0 10em;
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+   grid-gap: 2em;
+}
+
+.contact-1
+{
+  font-size: 15px;
+  margin-top: .5em;
+  color: gainsboro;
+}
+
+.contact-1 span
+{
+  font-size: 20px;
+  line-height: 2em;
+  color:gainsboro;
+}
+
+.contact-2
+{
+  font-size: 15px;
+  margin-top: .5em;
+  color: gainsboro;
+}
+
+.contact-2 span
+{
+  font-size: 20px;
+  line-height: 2em;
+  color:gainsboro;
+}
+
+.contact-3
+{
+  font-size: 15px;
+  margin-top: .5em;
+  color: gainsboro; 
+}
+
+.contact-3 span
+{
+  font-size: 20px;
+  line-height:2em;
+  color:gainsboro;  
+}
+
+
+
+/*********card***********/
+* {
+    box-sizing: border-box;
+  }
+
+  .gallery-wrapper1
+   {
+    max-width: 2000px;
+    width: 90%;
+    margin: 10vh auto;
+    padding: 0 3em;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 3em;
+  }
+  
+  .desc-wrapper1
+  {
+      background-color: #6C63FF;
+  }
+  
+  /*_____________Desc_____________*/
+
+  .desc1 hr
+  {
+    width: 250px;
+    margin: .3em auto;
+  }
+  
+  .desc-title1
+  {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 30px 50px 0px 50px;
+    color: white;
+  }
+  
+  .desc-desc1
+  {
+    font-size: 15px;
+    text-align: justify;
+    line-height: 4vh;
+    margin:30px 50px 0px 50px;
+    color: gainsboro;
+  }
+
+  .desc-desc1 span
+  {
+    padding-left: 1.5em;
+  }
+  
+  .descbtn1
+  {
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    margin: 3vh 0 8vh 8vh;
+    text-align: center;
+    color:#ffffff;
+    border-style: solid;
+    background-color: transparent;
+    border-color: gainsboro;
+  }
+
+  .descbtn1 a
+  {
+    color: gainsboro;
+  }
+  
+  .descbtn1:hover
+  {
+    box-shadow: 0 2px 5px rgb(255, 255, 255);
+    color: white;
+    border-color: white;
+  }
+
+  .descbtn1 a:hover
+  {
+    color: white;
+  }
+
+
+/*____________________Gallery-2__________________________*/
+
+  .gallery-wrapper2
+  {
+   max-width: 2000px;
+   width: 90%;
+   margin:10vh auto;
+   padding: 0 3em;
+   display: grid;
+   text-align: justify;
+   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+   grid-gap: 1em;
+ }
+
+ 
+ 
+ /*_____________Desc_____________*/
+
+ 
+ .desc-title2
+ {
+   font-size: 22px;
+   font-weight: bold;
+   margin: 20px;
+ }
+ 
+ .desc-desc2
+ {
+   font-size: 14px;
+   text-align: left;
+   line-height: 4vh;
+   margin: 20px;
+   height: 250px;
+ }
+ 
+
+  
+  
+
+  /*____________________________Footer____________________________*/
+* {
+  box-sizing: border-box;
+  }
+
+  .footer
+  {
+    background-color:#19203D;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .footer li
+  {
+    list-style: none;
+    padding-bottom: 20px;
+  }
+
+
+  .box
+  {
+    max-width: 2000px;
+    width: 90%;
+    margin: 10vh auto;
+    padding: 1em 3em;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1em;
+  }
+
+
+
+  /*_____________footer-Desc_____________*/
+  .fdesc
+  {
+    color: white;
+  }
+
+  .fdesc-title
+  {
+    font-size: 20px;
+    margin: 30px 50px 0px 50px;
+  }
+
+  .fdesc-title::after
+  {
+    content:'';
+    width: 0%;
+    height:2px;
+    background: rgb(3, 163, 163);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+  }
+
+  .fdesc-title::after
+  {
+    width: 30%;
+    margin-left: 0px;
+    margin-top: 5px;
+  }
+
+  .fdesc-desc
+  {
+    font-size: 15px;
+    text-align: left;
+    line-height: 4vh;
+    margin:30px 50px 0px 50px;
+    color: gainsboro;
+  }
+
+  input[type=text], select 
+  {
+    width: 120%;
+    padding: 10px 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid gainsboro;
+    box-sizing: border-box;
+    outline: none;
+    background-color: #19203D;
+  }
+
+  input[type=text]:hover
+  {
+    border: 1px solid white;
+    outline: none;
+  }
+
+  input[type=submit] 
+  {
+    width: 70%;
+    background-color: transparent;
+    border: 1px solid gainsboro;
+    padding: 12px 10px;
+    margin: 1px 0;
+    cursor: pointer;
+    color:gainsboro;
+  }
+
+  input[type=submit]:hover 
+  {
+    border: 1px solid white;
+    outline: none;
+    box-shadow: 0 1px 3px rgb(255, 255, 255);
+  }
+
+  footer hr
+  {
+    margin-bottom: 1vh;
+    border:1px solid gainsboro;
+  }
+
+  .copyright
+  {
+    font-size: 13px;
+    color:gainsboro;
+    margin: 3vh;
+    text-align: center;
+  }
+

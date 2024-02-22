@@ -1,0 +1,546 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: 'Varela Round', sans-serif;
+  scroll-behavior: smooth;
+}
+
+
+::-webkit-scrollbar
+{
+  display: none;
+}
+
+body
+{
+  background-color: #111827;
+  color: white;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+.lgbg
+{
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  background-color: #111827;
+}
+
+.login
+{
+  position: relative;
+  display: flex;
+  right:0;
+  float:right;
+}
+
+.dbutton
+{
+  position: relative;
+  background-color: #111827;
+  border:2px solid gainsboro;
+  text-decoration: none;
+  height: 100%;
+  padding: 7px;
+  margin: auto 10px;
+  font-weight: bold;
+}
+
+.dbutton a
+{
+  text-decoration: none;
+  color: gainsboro;
+}
+
+.dbutton:hover,
+.dbutton a:hover
+{
+  color: white;
+  border-color: white;
+}
+
+.fa-user
+{
+  display: block;
+  position: relative;
+  color: gainsboro;
+  margin: 5px 10px 10px 10px;
+}
+
+.fa-user:hover
+{
+  color:white;
+}
+
+.fa-user-md
+{
+  display: block;
+  position: relative;
+  color: gainsboro;
+  margin: 5px 10px 10px 10px;
+}
+
+.fa-user-md:hover
+{
+  color: white;
+}
+
+
+nav 
+{
+  position: relative;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  top:50px;
+  padding: 0;
+  height:70px;
+  background-color: #111827;
+}
+
+.logo img
+
+{
+  position: absolute;
+  width: 25vh;
+  left: 0;
+  margin: 5px;
+}
+
+.links 
+{
+  float: right;
+  padding: 0;
+  margin-top: -.3em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 5px;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  letter-spacing:1px;
+}
+
+
+.links li 
+{
+  list-style: none;
+  display: inline-block;
+  position: relative;
+}
+
+.links  li:hover
+{
+  color: white;
+}
+
+.links li a:hover
+{
+  color: white;
+}
+
+
+.links a 
+{
+  display: block;
+  padding-top: 1.5em;
+  padding-bottom: 2em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-size: 14px;
+  font-weight: 600;
+  color: gainsboro;
+  text-decoration: none;
+}
+
+
+
+
+/*________________________Dropdown___________________________*/
+  
+.dropdown 
+{
+  position: relative;
+  display: inline-block;
+}
+
+.drp
+{
+  display: block;
+  position: absolute;
+  padding-top: 1.5em;
+  padding-bottom: 2em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-size: 14px;
+  font-weight: 600;
+  color: gainsboro;
+  text-decoration: none;
+}
+
+
+
+.dropdown-content 
+{
+  display: none;
+  position: absolute;
+  background-color: white;
+  top: 52px;
+  min-width: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 10;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.dropdown-content a 
+{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover 
+{
+  text-shadow: .5px .5px 4px #0000007c;
+
+}
+
+.dropdown:hover .dropdown-content 
+{
+  display: block;
+}
+
+.cont 
+{
+  position: relative;
+  width: 30%;
+  display: flex;
+  height: 50px;
+  flex-direction: row 1 1;
+}
+
+
+
+.Maternity-container img 
+{
+    position: absolute;
+    align-content: center;
+    width: 40%;
+    z-index: -10;
+    top: 8em;
+    border-radius: 20px;
+    left: 48em;
+}
+
+.Maternity-title
+{
+    position: relative;
+    top: 5em;
+    left: 5em;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    z-index: 100;
+}
+
+.Maternity-title a
+{
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(177, 177, 177);
+    transition: .5s;
+}
+
+.Maternity-title a:hover
+{   
+    color: white;
+}
+
+.Maternity-title span
+{
+    font-size: 12px;
+}
+
+.container-after-header
+{
+    position: absolute;
+    width: 100%;
+    height: 200vh;
+    background-color: #111827;
+    top: 33em;
+}
+
+.container-header
+{
+    position: relative;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 40px;
+    font-weight: 900;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    color: white;
+}
+
+.container-header hr
+{
+    position: relative;
+    width: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: .2em;
+    border-top: 1px solid white;
+}
+
+.container-after-header h2
+{
+    position: relative;
+    text-align: center;
+    margin-top: 2.6em;
+    font-size: 20px;
+    font-weight: normal;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    color: gainsboro;
+}
+
+
+.container-desc
+{
+    display: flexbox;
+    width: 80%;
+}
+
+
+.container-after-header ul
+{
+    position: absolute;
+    left: 15em;
+    list-style: none;
+    margin: 5em;
+    width: 40%;
+    font-size: 13px;
+    color: #787878;
+}
+
+.container-after-header ul li
+{
+    position: relative;
+    width: 400px;
+    padding: 10px 10px 10px 10px;
+}
+
+.container-after-header ul img
+{
+    position:absolute;
+    left: -1.9em;
+    width: 40px;
+    padding: 10px 10px 10px 10px;
+}
+
+.container-after-header .duplicate
+{
+    position: relative;
+    float: right;
+    right: 5em;
+}
+
+
+.expert-container
+{
+    position: relative;
+    top: 140vh;
+    width: 100%;
+}
+
+.expert-doctor
+{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: cursive;
+    margin: 2em;
+}
+
+
+.photo-container
+{
+    position: relative;
+    top: 135vh;
+    width:100%;
+    margin-left:15%;
+    margin-right: auto;
+}
+.gallery 
+{
+    border: 1px solid #ccc;
+}
+
+.gallery:hover 
+{
+    border: 1px solid #777;
+}
+
+.gallery img 
+{
+    width: 100%;
+    height: auto;
+}
+
+.desc 
+{
+    padding: 15px;
+    text-align: center;
+}
+
+* 
+{
+    box-sizing: border-box;
+}
+
+.responsive 
+{
+    position: relative;
+    padding: 10px 6px;
+    float: left;
+    width: 18%;
+}
+
+
+
+
+
+/*____________________________Footer____________________________*/
+* {
+box-sizing: border-box;
+}
+
+.footer
+{
+  position: relative;
+  background-color:#19203D;
+  width: 100%;
+  overflow: hidden;
+  top:146vh;
+}
+
+.footer li
+{
+  list-style: none;
+  padding-bottom: 20px;
+}
+
+
+.box
+{
+  max-width: 2000px;
+  width: 90%;
+  margin: 10vh auto;
+  padding: 1em 3em;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1em;
+}
+
+
+
+/*_____________footer-Desc_____________*/
+.fdesc
+{
+  color: white;
+}
+
+.fdesc-title
+{
+  font-size: 20px;
+  margin: 30px 50px 0px 50px;
+}
+
+.fdesc-title::after
+{
+  content:'';
+  width: 0%;
+  height:2px;
+  background: rgb(3, 163, 163);
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.fdesc-title::after
+{
+  width: 30%;
+  margin-left: 0px;
+  margin-top: 5px;
+}
+
+.fdesc-desc
+{
+  font-size: 15px;
+  text-align: left;
+  line-height: 4vh;
+  margin:30px 50px 0px 50px;
+  color: gainsboro;
+}
+
+input[type=text], select 
+{
+  width: 120%;
+  padding: 10px 10px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid gainsboro;
+  box-sizing: border-box;
+  outline: none;
+  background-color: #19203D;
+}
+
+input[type=text]:hover
+{
+  border: 1px solid white;
+  outline: none;
+}
+
+input[type=submit] 
+{
+  width: 70%;
+  background-color: transparent;
+  border: 1px solid gainsboro;
+  padding: 12px 10px;
+  margin: 1px 0;
+  cursor: pointer;
+  color:gainsboro;
+}
+
+input[type=submit]:hover 
+{
+  border: 1px solid white;
+  outline: none;
+  box-shadow: 0 1px 3px rgb(255, 255, 255);
+}
+
+footer hr
+{
+  margin-bottom: 1vh;
+  border:1px solid gainsboro;
+}
+
+.copyright
+{
+  font-size: 13px;
+  color:gainsboro;
+  margin: 3vh;
+  text-align: center;
+}
+
